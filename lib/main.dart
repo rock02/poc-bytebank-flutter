@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:poc_bytebank_flutter/screens/entry_screen.dart';
+import 'package:poc_bytebank_flutter/screens/transfer/list_transfer_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: EntryScreen(),
+      home: TransfersList(),
     );
   }
 }
