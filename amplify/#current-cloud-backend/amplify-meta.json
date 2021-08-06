@@ -1,0 +1,55 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pocbytebankflutter-dev-215552-authRole",
+      "UnauthRoleArn": "arn:aws:iam::693029908255:role/amplify-pocbytebankflutter-dev-215552-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::693029908255:role/amplify-pocbytebankflutter-dev-215552-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-pocbytebankflutter-dev-215552-deployment",
+      "UnauthRoleName": "amplify-pocbytebankflutter-dev-215552-unauthRole",
+      "StackName": "amplify-pocbytebankflutter-dev-215552",
+      "StackId": "arn:aws:cloudformation:us-east-2:693029908255:stack/amplify-pocbytebankflutter-dev-215552/e5191b30-f587-11eb-92e7-029ed0884a82",
+      "AmplifyAppId": "d2eo3h1pa6a408"
+    }
+  },
+  "auth": {
+    "pocbytebankflutter4215bfd5": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-pocbytebankflutter-dev-215552-deployment/amplify-cfn-templates/auth/pocbytebankflutter4215bfd5-cloudformation-template.yml",
+        "logicalId": "authpocbytebankflutter4215bfd5"
+      },
+      "lastPushTimeStamp": "2021-08-05T21:53:48.661Z",
+      "output": {
+        "UserPoolId": "us-east-2_q4tasI99R",
+        "AppClientIDWeb": "4ol60g83sk6k3ssp40f7vid901",
+        "AppClientID": "6p8vsgddcuhg9ubqkojuqjad8i",
+        "IdentityPoolId": "us-east-2:5df237fa-4285-4d03-bd47-abe08b8ab8a4",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-2:693029908255:userpool/us-east-2_q4tasI99R",
+        "IdentityPoolName": "pocbytebankflutter4215bfd5_identitypool_4215bfd5__dev",
+        "UserPoolName": "pocbytebankflutter4215bfd5_userpool_4215bfd5"
+      },
+      "lastPushDirHash": "VaTydC0W3Tb1OwgoQvRWR27YnAY="
+    }
+  },
+  "analytics": {
+    "pocbytebankflutter": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-pocbytebankflutter-dev-215552-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+        "logicalId": "analyticspocbytebankflutter"
+      },
+      "lastPushTimeStamp": "2021-08-05T21:53:48.655Z",
+      "output": {
+        "appName": "pocbytebankflutter-dev",
+        "Region": "us-east-1",
+        "Id": "822ebbe34dab4f1dbff5670dfd3cabc1"
+      },
+      "lastPushDirHash": "4TnA+m3bn+oxJBAhit6p7QWu9Zo="
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pocbytebankflutter-dev-215552-authRole",
+      "UnauthRoleArn": "arn:aws:iam::693029908255:role/amplify-pocbytebankflutter-dev-215552-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::693029908255:role/amplify-pocbytebankflutter-dev-215552-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-pocbytebankflutter-dev-215552-deployment",
+      "UnauthRoleName": "amplify-pocbytebankflutter-dev-215552-unauthRole",
+      "StackName": "amplify-pocbytebankflutter-dev-215552",
+      "StackId": "arn:aws:cloudformation:us-east-2:693029908255:stack/amplify-pocbytebankflutter-dev-215552/e5191b30-f587-11eb-92e7-029ed0884a82",
+      "AmplifyAppId": "d2eo3h1pa6a408"
+    },
+    "categories": {
+      "auth": {
+        "pocbytebankflutter4215bfd5": {}
+      }
+    }
+  }
+}

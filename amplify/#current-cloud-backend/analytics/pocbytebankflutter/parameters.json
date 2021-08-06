@@ -1,0 +1,21 @@
+{
+    "appName": "pocbytebankflutter",
+    "roleName": "pinpointLambdaRole806a3886",
+    "cloudformationPolicyName": "cloudformationPolicy806a3886",
+    "cloudWatchPolicyName": "cloudWatchPolicy806a3886",
+    "pinpointPolicyName": "pinpointPolicy806a3886",
+    "authPolicyName": "pinpoint_amplify_806a3886",
+    "unauthPolicyName": "pinpoint_amplify_806a3886",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
